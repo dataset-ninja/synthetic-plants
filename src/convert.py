@@ -9,11 +9,13 @@ import supervisely as sly
 from cv2 import connectedComponents
 from supervisely.io.fs import get_file_name, get_file_name_with_ext
 
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "True"
+
 
 def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
-    dataset_path = "/Users/iwatkot/Downloads/ninja-datasets/PATH/"
+    dataset_path = "/Users/iwatkot/Downloads/ninja-datasets/synthetic-plants/"
     ds_name = "ds"
     batch_size = 30
 
