@@ -2,7 +2,7 @@ If you make use of the Synthetic RGB-D data for plant segmentation data, please 
 
 ```
 @misc{Synthetic plants,
-	author = "TO BE FILLED MANUALLY!",
+	author = "Kumaresan",
 	title = "Synthetic RGB-D data for plant segmentation",
 	howpublished = "https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge"
 }
