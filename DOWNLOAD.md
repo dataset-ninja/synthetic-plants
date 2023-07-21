@@ -1,6 +1,8 @@
-Please visit dataset [homepage](https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge) to download the data. 
+Dataset **Synthetic plants** can be downloaded in Supervisely format:
 
-Afterward, you have the option to download it in the universal supervisely format by utilizing the dataset-tools package:
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/P/l/sT/892nWHWBctcvD4Gub4rGxdPo0o90EkhnR36X820VehrxtC4rRHqof80eOsa5W2UCkeARLCqlcjjbgAM1d0n6kDVZ18qLeZjeSn5wLcr3cq75sbEWVHVZYDqf4Q4Y.tar)
+
+As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
 pip install --upgrade dataset-tools
 ```
@@ -9,5 +11,6 @@ pip install --upgrade dataset-tools
 ``` python
 import dataset_tools as dtools
 
-dtools.download(dataset='Synthetic plants', dst_dir='~/dtools/datasets/Synthetic plants')
+dtools.download(dataset='Synthetic plants', dst_path='~/dtools/datasets/Synthetic plants.tar')
 ```
+The data in original format can be 🔗[downloaded here](https://www.kaggle.com/datasets/harlequeen/synthetic-rgbd-images-of-plants/download?datasetVersionNumber=3)

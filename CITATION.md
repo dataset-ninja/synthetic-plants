@@ -1,11 +1,12 @@
-If you make use of the Synthetic RGB-D data for plant segmentation data, please cite the following reference (to be prepared after the challenge workshop) in any publications:
+If you make use of the Synthetic plants data, please cite the following reference:
 
-```
-@misc{Synthetic plants,
-	author = "Kumaresan",
-	title = "Synthetic RGB-D data for plant segmentation",
-	howpublished = "https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge"
+``` bibtex 
+@dataset{Synthetic plants,
+	author={El Baha Farouk},
+	title={Synthetic RGB-D data for plant segmentation},
+	year={2018},
+	url={https://www.kaggle.com/datasets/harlequeen/synthetic-rgbd-images-of-plants}
 }
 ```
 
-[🔗 Source](https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge)
+[🔗 Source](https://www.kaggle.com/datasets/harlequeen/synthetic-rgbd-images-of-plants)
