@@ -13,8 +13,8 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Synthetic plants"
-PROJECT_NAME_FULL: str = "Synthetic RGB-D data for plant segmentation"
+PROJECT_NAME: str = "Synthetic Plants"
+PROJECT_NAME_FULL: str = "Synthetic RGB-D Data for Plant Segmentation"
 
 ##################################
 # * After uploading to instance ##
@@ -24,12 +24,11 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural(i
 CATEGORY: Category = Category.Agriculture()
 
 CV_TASKS: List[CVTask] = [
-    CVTask.SemanticSegmentation(),
     CVTask.InstanceSegmentation(),
+    CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [
-    AnnotationType.SemanticSegmentation(),
     AnnotationType.InstanceSegmentation(),
 ]
 
