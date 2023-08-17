@@ -1,3 +1,3 @@
-# Synthetic RGB-D data for plant segmentation
+# Synthetic RGB-D Data for Plant Segmentation
 
-Synthetic plants is a dataset for semantic segmentation, instance segmentation tasks.
+Synthetic Plants is a dataset for instance segmentation, semantic segmentation, object detection tasks.
