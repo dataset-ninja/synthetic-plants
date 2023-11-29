@@ -1,6 +1,6 @@
 Dataset **Synthetic Plants** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/W/g/nL/to67INKMhnZzaz64C2ua8hUsJseN2UvL8f1YFKQp0oowcqHlHYpfMqaH19LZXGAOBL5mph0yFB9iQzEUIMGJ71QwwDtNZSoSENtwhWjdUqlp3C7rYCmzg0vjJ3uG.tar)
+ [Download](https://www.dropbox.com/scl/fi/30uzftg3adsnb888a64ah/synthetic-plants-DatasetNinja.tar?rlkey=iwvwa07phqa8cs009jjmgh0qd&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
